@@ -1,13 +1,6 @@
 module.exports = {
-  TELEGRAM_TOKEN: '8314788198:AAHRmvNz9Kh2nQUE-qYV6gtyKMxGChEW6AA', // Remplace par le token du bot Telegram
-
-  // Lien d'invitation pour le bouton "Channel"
-  CHANNEL_INVITE_LINK: 'https://t.me/ton_channel', 
-
-  // Lien d'invitation pour le bouton "Group"
-  GROUP_LINK: 'https://t.me/ton_groupe', 
-
-  // Liste des ID Telegram considérés comme propriétaires (Owner)
-  // ⚠️ Ces IDs doivent être des entiers (pas des strings)
-  owner: [7799545092], // Remplace par ton ID Telegram
+  token: process.env.TELEGRAM_TOKEN || "YOUR_BOT_TOKEN_HERE",
+  owner: [7799545092, 987654321], // Replace with your Telegram numeric IDs
+  CHANNEL_INVITE_LINK: process.env.CHANNEL_LINK || "https://t.me/yourchannel",
+  GROUP_LINK: process.env.GROUP_LINK || "https://t.me/yourgroup"
 };
