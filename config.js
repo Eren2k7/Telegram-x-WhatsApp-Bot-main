@@ -9,5 +9,5 @@ module.exports = {
 
   // Liste des ID Telegram considérés comme propriétaires (Owner)
   // ⚠️ Ces IDs doivent être des entiers (pas des strings)
-  owner: [7799545092, 987654321], // Remplace par ton ID Telegram
+  owner: [7799545092], // Remplace par ton ID Telegram
 };
